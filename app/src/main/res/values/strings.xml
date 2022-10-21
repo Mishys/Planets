@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Planets</string>
+    <string name="planets">Планеты солнечной системы</string>
+    <string name="milkway_galaxy">Млечный путь - Галактика</string>
+    <string name="earth">ЗЕМЛЯ</string>
+    <string name="overview">Описание</string>
+    <string name="mercury">Меркурий</string>
+    <string name="Venus">Венера</string>
+    <string name="Mars">Марс</string>
+    <string name="Jupiter">Юпитер</string>
+    <string name="Saturn">Сатурн</string>
+    <string name="Uranus">Уран</string>
+    <string name="Neptun">Нептун</string>
+</resources>
