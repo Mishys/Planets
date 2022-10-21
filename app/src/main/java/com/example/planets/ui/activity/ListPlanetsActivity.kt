@@ -1,4 +1,4 @@
-package com.example.planets
+package com.example.planets.ui.activity
 
 import android.os.Bundle
 import android.view.View
@@ -15,12 +15,14 @@ class ListPlanetsActivy: AppCompatActivity() {
         ActivityListPlanetsBinding.inflate(layoutInflater)
     }
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Thread.sleep(2000)
         setContentView(binding.root)
         hideNavigation()
         configuraRecyclerView()
+
     }
 
     override fun onStop() {

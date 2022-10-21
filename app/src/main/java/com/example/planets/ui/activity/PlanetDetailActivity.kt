@@ -6,7 +6,6 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.planets.ListPlanetsActivy
 import com.example.planets.R
 
 import com.example.planets.databinding.ActivityPlanetDetailBinding
@@ -69,53 +68,53 @@ class PlanetDetailActivity: AppCompatActivity() {
         imagePlanet: ImageView,
         imagePlanetBackground: ImageView?
     ) {
-        if (title.text == getString(R.string.mercury)) {
+        if (title.text == "Меркурий") {
             imagePlanet.setImageResource(R.drawable.moon)
             if (imagePlanetBackground != null) {
                 imagePlanetBackground.setImageResource(R.drawable.mercury_detail)
             }
         }
 
-        if (title.text == getString(R.string.Venus)) {
+        if (title.text == "Венера") {
             imagePlanet.setImageResource(R.drawable.venus)
             if (imagePlanetBackground != null) {
                 imagePlanetBackground.setImageResource(R.drawable.venus_detail)
             }
         }
 
-        if (title.text == getString(R.string.earth)) {
+        if (title.text == "Земля") {
             imagePlanet.setImageResource(R.drawable.earth)
             if (imagePlanetBackground != null) {
                 imagePlanetBackground.setImageResource(R.drawable.earth_detail)
             }
         }
 
-        if (title.text == getString(R.string.Mars)) {
+        if (title.text == "Марс") {
             imagePlanet.setImageResource(R.drawable.mars)
             if (imagePlanetBackground != null) {
                 imagePlanetBackground.setImageResource(R.drawable.mars_detail)
             }
         }
 
-        if (title.text == getString(R.string.Jupiter)) {
+        if (title.text == "Юпитер") {
             imagePlanet.setImageResource(R.drawable.jupiter)
             if (imagePlanetBackground != null) {
                 imagePlanetBackground.setImageResource(R.drawable.jupiter_detail)
             }
         }
-        if (title.text == getString(R.string.Saturn)) {
+        if (title.text == "Сатурн") {
             imagePlanet.setImageResource(R.drawable.saturn)
             if (imagePlanetBackground != null) {
                 imagePlanetBackground.setImageResource(R.drawable.saturn_detail)
             }
         }
-        if (title.text == getString(R.string.Uranus)) {
+        if (title.text == "Уран") {
             imagePlanet.setImageResource(R.drawable.uranus)
             if (imagePlanetBackground != null) {
                 imagePlanetBackground.setImageResource(R.drawable.uranus_detail)
             }
         }
-        if (title.text == getString(R.string.Neptun)) {
+        if (title.text == "Нептун") {
             imagePlanet.setImageResource(R.drawable.neptune)
             if (imagePlanetBackground != null) {
                 imagePlanetBackground.setImageResource(R.drawable.neptune_detail)

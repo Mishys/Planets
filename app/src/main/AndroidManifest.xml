@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Planets"
         tools:targetApi="31" >
 
-        <activity android:name=".ListPlanetsActivy"
+        <activity android:name=".ui.activity.ListPlanetsActivy"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
