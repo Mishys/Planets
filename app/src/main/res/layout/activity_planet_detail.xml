@@ -104,7 +104,7 @@
                     android:id="@+id/planet_detail_distance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="54.6m km"
+                    android:text="54.6 m km"
                     android:textColor="@color/subtext"
                     android:textSize="10sp"
                     android:layout_marginStart="2dp"
